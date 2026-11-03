@@ -1,32 +1,65 @@
-# React + TypeScript + Vite
+# Work2Credit 💼
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+### A Digital Platform for Gig Worker Job Opportunities and Creditworthiness Assessment
 
-Currently, two official plugins are available:
+Work2Credit is a web-based platform designed to connect gig workers and independent service providers with customers. It helps workers showcase their skills, find job opportunities, manage bookings, and build verified work and income profiles.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+The platform introduces a **Work2Credit Score**, based on work history, earnings, and customer ratings, to help workers demonstrate their creditworthiness to potential lenders.
 
-## React Compiler
+## 🎯 Problem Statement
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+Many gig workers, including plumbers, electricians, carpenters, and mechanics, rely on irregular jobs and word-of-mouth referrals. Without formal employment records or organized proof of income, they may struggle to demonstrate their financial reliability when seeking loans or other financial services.
 
-## Expanding the Oxlint configuration
+## 💡 Our Solution
 
-If you are developing a production application, we recommend enabling type-aware lint rules by installing `oxlint-tsgolint` and editing `.oxlintrc.json`:
+Work2Credit combines service discovery and booking management with organized work-history records, helping independent workers build a stronger digital professional profile.
 
-```json
-{
-  "$schema": "./node_modules/oxlint/configuration_schema.json",
-  "plugins": ["react", "typescript", "oxc"],
-  "options": {
-    "typeAware": true
-  },
-  "rules": {
-    "react/rules-of-hooks": "error",
-    "react/only-export-components": ["warn", { "allowConstantExport": true }]
-  }
-}
-```
+## ✨ Key Features
 
-See the [Oxlint rules documentation](https://oxc.rs/docs/guide/usage/linter/rules) for the full list of rules and categories.
+- 👤 **Worker Profiles:** Showcase skills and services.
+- 🔍 **Job Discovery:** Connect workers with potential customers.
+- 📅 **Booking Management:** Organize customer bookings.
+- 📊 **Work History:** Maintain records of completed jobs, earnings, and ratings.
+- 💳 **Work2Credit Score:** Help workers demonstrate creditworthiness using their recorded work history and earnings.
+- 💰 **Revenue Model:** A proposed commission of ₹50 per completed booking.
+
+## 🛠️ Technology
+
+Work2Credit is a web-based project. The technology stack may include frontend frameworks, backend services, and database tools depending on the current implementation.
+
+## 🚀 Live Demo
+
+Explore the project: **[Work2Credit Website](https://work-2-credit.vercel.app/)**
+
+## 📂 Repository
+
+View the source code: **[GitHub Repository](https://github.com/thanishkaykb/WORK2CREDIT)**
+
+## 🌍 Sustainable Development Goals
+
+Work2Credit aligns with the following United Nations Sustainable Development Goals:
+
+- **SDG 8:** Decent Work and Economic Growth
+- **SDG 10:** Reduced Inequalities
+- **SDG 9:** Industry, Innovation and Infrastructure
+
+## 🔮 Future Scope
+
+- Improve work and income verification.
+- Introduce secure digital records for completed jobs.
+- Expand worker and customer onboarding.
+- Explore partnerships with financial institutions.
+- Enhance the Work2Credit Score methodology.
+
+## ⚠️ Disclaimer
+
+The Work2Credit Score is a proposed platform-specific indicator, not an official CIBIL score or a guarantee of loan approval. Lending decisions remain the responsibility of financial institutions.
+
+## 👩‍💻 Project
+
+**Work2Credit**  
+Developed as a project focused on digital innovation, gig worker empowerment, and financial inclusion.
+
+---
+
+*Empowering skills. Connecting opportunities. Building financial visibility.*
